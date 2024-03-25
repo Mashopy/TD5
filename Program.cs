@@ -3,11 +3,7 @@
 }
 
 bool supeq_ou_pas(int a, int b) {
-    if (a >= b) {
-        return true;
-    } else {
-        return false;
-    }
+    return a>=b;
 }
 
 int opposer_de_z(int z) {
